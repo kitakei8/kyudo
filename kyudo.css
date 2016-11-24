@@ -1,0 +1,85 @@
+body {
+  background: #e0e0e0;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: arial, sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+div.button {
+  margin: 10px 0 0 0;
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #00aaff;
+  box-shadow: 0 4px 0 #0088cc;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button.pushed {
+  margin-top: 32px;
+  box-shadow: 0 2px 0 #0088cc;
+}
+
+.person {
+  margin: 10px 0 0 0;
+  width: 150px;
+  height: 25px;
+  background: white;
+  border-color: black;
+  font-size: 16px;
+  color: black;
+}
+
+#enter {
+  margin: 10px 0 0 0;
+  width: 250px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #aaff00;
+  box-shadow: 0 4px 0 #88cc00;
+  cursor: pointer;
+  font-size: 32px;
+  color: black;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+#leave {
+  margin: 10px 0 0 0;
+  width: 250px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #aaff00;
+  box-shadow: 0 4px 0 #88cc00;
+  cursor: pointer;
+  font-size: 32px;
+  color: black;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+
+#cancel {
+  margin: 10px 0 0 0;
+  width: 250px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #00ff00;
+  box-shadow: 0 4px 0 #00cc00;
+  cursor: pointer;
+  font-size: 32px;
+  color: black;
+  line-height: 80px;
+  font-weight: bold;
+}
